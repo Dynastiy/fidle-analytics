@@ -1,0 +1,143 @@
+    .settings--page {
+        height: 85vh;
+    }
+    
+    .settings--page .router-link-exact-active {
+        border-right: 3px solid var(--blue-200);
+    }
+    
+    .settings--page a {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 0.3rem 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .settings--page .router-link-exact-active h5,
+    .settings--page .router-link-exact-active small,
+    .settings--page .router-link-exact-active span {
+        color: var(--blue-200) !important;
+    }
+    
+    .nav--item span {
+        font-size: 20px;
+    }
+    
+    .nav--item {
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    
+    .coming--soon {
+        font-size: 12px;
+        background-color: #E2FFF6;
+        color: #00CD6B;
+        width: max-content;
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+    /* Change password  */
+    
+    .change--password .input--field {
+        display: block;
+        width: 100%;
+        border: 1px solid var(--gray-400);
+        border-radius: 5px;
+        outline: none;
+        display: flex;
+        align-items: center;
+        padding: 0 0.3rem;
+    }
+    
+    .change--password .input--field input {
+        border: none;
+        width: 100%;
+        outline: none;
+        padding: 0.6rem;
+        border-radius: 5px;
+    }
+    
+    .el-collapse-item__header {
+        font-size: 17px;
+    }
+    
+    .vue-pincode-input {
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    .settings--button button {
+        background-color: var(--blue-200);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 0.3rem 0.6rem;
+    }
+    /* About Us */
+    
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6 {
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+    
+    .h1 {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    
+    .h4 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    
+    .entry-content ol li,
+    .entry-content ul li {
+        margin-bottom: 4px;
+    }
+    
+    .gridlove-content {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        min-width: 0;
+        max-width: 900px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .wp-block-group {
+        box-sizing: border-box;
+    }
+    /* Support Settings  */
+    
+    .support--form input,
+    .support--form textarea {
+        display: block;
+        width: 100%;
+        padding: 0.7rem 0.5rem;
+        border: none;
+        background-color: #e5e5e5;
+        border-radius: 5px;
+        outline: none;
+    }
+    
+    .support--form input::placeholder,
+    .support--form textarea::placeholder {
+        color: rgba(0, 0, 0, 0.3);
+        font-size: 0.8rem;
+    }
+    
+    .support--form button {
+        background-color: var(--blue-200);
+        padding: 0.4rem 2rem;
+        border: none;
+        border-radius: 20px;
+        color: #fff;
+    }

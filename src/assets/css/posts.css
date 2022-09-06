@@ -1,0 +1,354 @@
+.cover--area {
+    height: 100px;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    border-radius: 10px 10px 0 0;
+}
+
+.rounded--card {
+    border-radius: 10px;
+    background-color: #fff;
+    z-index: -1;
+}
+
+.profile-card-photo {
+    text-align: center;
+}
+
+.profile-card-photo img {
+    width: 80px;
+    height: 80px;
+    object-position: top;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -40px;
+    border: 3px solid #fff;
+}
+
+.messages-search-field {
+    background-color: var(--gray-50);
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    /* width: 500px; */
+    border-radius: 10px;
+}
+
+.messages-search-field input {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 0.6rem;
+    outline: none;
+}
+
+.messages-search-field input::placeholder {
+    color: var(--gray-500);
+    font-size: 0.9rem;
+}
+
+.el-tabs__item {
+    color: var(--gray-500);
+}
+
+.el-tabs__item:hover {
+    color: #000;
+}
+
+.el-tabs__item.is-active {
+    color: #000;
+}
+
+.el-tabs__active-bar {
+    background-color: #000;
+}
+
+.messages-photo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.suggested-header-icon {
+    background-color: var(--gray-50);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.start-post-photo img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.start--post {
+    display: block;
+    width: 100%;
+}
+
+.start--post input {
+    display: block;
+    background-color: var(--gray-50);
+    border-radius: 10px;
+    padding: 0.8rem;
+    width: 100%;
+    color: var(--gray-500);
+    font-size: 0.8rem;
+    border: none;
+    outline: none;
+}
+
+.poster--name:hover {
+    text-decoration: underline;
+}
+
+.main-writeup.active {
+    background-color: var(--main-color);
+    padding: 0 1rem;
+    color: #fff;
+    text-align: center;
+    text-overflow: ellipsis;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(40px - 20px);
+}
+
+.main-writeup {
+    padding: 1.5rem 0;
+}
+
+.actions--container {
+    padding: 0.8rem 0.4rem;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.actions--container:hover {
+    background-color: var(--gray-50);
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+    cursor: pointer;
+}
+
+.file--icons {
+    font-size: 1.3rem;
+    color: var(--gray-500);
+}
+
+
+/* Add a Post Controller */
+
+.start--post .el-textarea__inner {
+    border-radius: 50px;
+    background-color: var(--gray-50);
+    border: none;
+    min-height: 50px !important;
+    padding: 0.8rem 1.5rem;
+}
+
+
+/* Add Photo and Preview  */
+
+[type="file"] {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+[type="file"]+label {
+    /* font-family: sans-serif; */
+    /* background: #f44336; */
+    /* padding: 10px 30px; */
+    /* border: 2px solid #f44336; */
+    /* border-radius: 3px; */
+    /* color: #fff; */
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.media--preview img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+
+.main--button {
+    background-color: var(--main-color);
+    padding: 0.4rem 2rem;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    text-transform: capitalize;
+}
+
+.main--button.active {
+    background-color: var(--main-color);
+    background: rgba(0, 0, 0, 0.2);
+    /* background-blend-mode: lighten; */
+    background-blend-mode: color-dodge;
+}
+
+.media--preview {
+    position: relative;
+}
+
+.close-media-preview {
+    background-color: #fff;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    border-radius: 50%;
+}
+
+.uploaded__video {
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+
+.preview {
+    position: relative;
+}
+
+.close-video-preview {
+    position: absolute;
+    top: 13%;
+    left: 5%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.main-comment {
+    background-color: var(--gray-50);
+    padding: 0.6rem 1rem;
+    border-radius: 0px 10px 10px 10px;
+    /* border-radius: 10px 30px; */
+    max-width: max-content;
+    position: relative;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.commenter-photo img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.emojis {
+    position: absolute;
+    bottom: 80px;
+    right: 10px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--gray-50);
+    border-radius: 20px;
+    padding-right: 20px;
+    gap: 10px
+}
+
+.main-comment {
+    white-space: pre-wrap;
+}
+
+.main-comment p {
+    word-break: normal;
+}
+
+.like--comment {
+    position: absolute;
+    bottom: 1%;
+    right: -10px;
+}
+
+.popper {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    border: unset;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.top-side .start-post-photo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.pop--action button {
+    width: 100%;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem;
+    color: #fff;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.rounded--card .dropleft .dropdown-menu {
+    width: 250px;
+}
+
+.rounded--card .dropdown-item {
+    padding: 0.8rem 1.4rem;
+}
+
+.verify--details {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verify--content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0.8rem;
+    width: 40%;
+}
+
+.verify--content button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 0.85rem;
+}

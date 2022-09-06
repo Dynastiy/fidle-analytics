@@ -1,0 +1,17 @@
+    @media (max-width: 990px) {
+        .cards--listing {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 20px;
+        }
+        .search--input input {
+            width: 100%;
+        }
+    }
+    
+    @media (min-width: 1500px) {
+        #main {
+            width: 1440px;
+            margin: 0 auto;
+        }
+    }

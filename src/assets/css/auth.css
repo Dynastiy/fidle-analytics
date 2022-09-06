@@ -1,0 +1,275 @@
+/* Login Page Styles */
+
+.login--page-wrapper {
+    height: 100vh;
+}
+
+.login--page-right-side {
+    background-color: var(--blue-300);
+}
+
+.login--page-left-side h1 {
+    color: var(--main-color);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.login--page-left-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login--page-left-side .input--text {
+    display: block;
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid var(--gray-400);
+    border-radius: 5px;
+    outline: none;
+}
+
+.login--page-left-side .input--field {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--gray-400);
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 0 0.4rem;
+}
+
+.login--page-left-side .input--field input {
+    border: none;
+    width: 100%;
+    outline: none;
+    padding: 0.6rem;
+    border-radius: 5px;
+}
+
+.login--page-left-side input[type='checkbox'] {
+    width: 18px;
+    height: 18px;
+}
+
+.login-page-content {
+    width: 65%;
+}
+
+.login--page-left-side img {
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.login--page-left-side button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 0.6rem;
+    border-radius: 5px;
+}
+
+.login--page-right-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login--loader {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+}
+
+
+/* Styling for Sign Up Page  */
+
+.signup--page-wrapper {
+    background: linear-gradient(to right, var(--main-color) 0%, var(--main-color) 50%, #fff 50%, #fff 100%);
+    height: 100vh;
+}
+
+.signup-page-right-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-page-right-side .input--text {
+    display: block;
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid var(--gray-400);
+    border-radius: 5px;
+    outline: none;
+}
+
+.signup-page-right-side .input--field {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--gray-400);
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 0 0.4rem;
+}
+
+.signup-page-right-side .input--field input {
+    border: none;
+    width: 100%;
+    outline: none;
+    padding: 0.6rem;
+    border-radius: 5px;
+}
+
+.signu--page-right-side input[type='checkbox'] {
+    width: 18px;
+    height: 18px;
+}
+
+.signup-page-content {
+    width: 65%;
+}
+
+.signup-page-right-side img {
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.signup-page-right-side button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 0.6rem;
+    border-radius: 5px;
+}
+
+.signup--page-left-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-page-right-side h1 {
+    color: var(--main-color);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.signup-page-right-side select {
+    border: none;
+    width: 100%;
+    outline: none;
+    display: block;
+    padding: 0.6rem;
+    border-radius: 5px;
+    border: 1px solid var(--gray-400);
+}
+
+
+/* Slider Buttons  */
+
+.slider--control {
+    width: 20px;
+    height: 20px;
+    background-color: var(--background-color);
+    border-radius: 50%;
+}
+
+.slider--gap {
+    height: 2px;
+    width: 100px;
+    display: block;
+    background-color: var(--background-color);
+}
+
+.slider-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.slider--control.active {
+    background-color: var(--blue-300);
+}
+
+
+/* Verify Email Modal  */
+
+.verify-email-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verify-email-container .verify-email-content {
+    background-color: #fff;
+    width: 30%;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.edit-email {
+    background-color: #fff !important;
+    color: var(--main-color) !important;
+    border: 1px solid var(--main-color) !important;
+}
+
+
+/* Follow First five People */
+
+.follow {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follower--dp img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.following--dp img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin-left: -10px;
+    border: 3px solid #fff;
+}
+
+.following--dp img:nth-child(1) {
+    margin-left: unset;
+    border: unset;
+    border: 3px solid #fff;
+}
+
+.follow-content {
+    width: 40%;
+}

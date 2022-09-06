@@ -1,0 +1,201 @@
+.primary--btn {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+}
+
+.secondary--btn {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: var(--blue-500);
+    color: #fff;
+    padding: 0.6rem 3rem;
+    border-radius: 5px;
+}
+
+
+/* Chat Interface  */
+
+.chat--interface {
+    position: fixed;
+    right: 10%;
+    bottom: 0;
+    background-color: #fff;
+    width: 320px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 10px 10px 0 0;
+    z-index: 9999;
+}
+
+.chat--interface .active-img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.chat--interface .top {
+    padding: 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.chat--interface .send--message {
+    padding: 1rem;
+    border-top: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+#textarea {
+    border: transparent;
+    background: transparent;
+    outline: transparent;
+    width: 100%;
+    height: 30px;
+}
+
+.chat--interface input::placeholder {
+    font-size: 0.8rem;
+}
+
+.chat--interface .main--chat {
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 0.5rem;
+    background-color: #f9f9f9;
+    padding: 1rem;
+}
+
+.message--content {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0.8rem;
+    gap: 4px;
+}
+
+.message--content.sender {
+    margin-left: auto;
+    max-width: max-content;
+}
+
+.message--content.sender .main--text {
+    background-color: var(--blue-800);
+    padding: 0.4rem 1rem;
+    border-radius: 10px 0px 10px 10px;
+    font-size: 0.9rem;
+    max-width: 200px;
+    white-space: pre-wrap;
+}
+
+.message--content .main--text p {
+    word-break: normal;
+}
+
+.message--content .sender img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.message--content.reciever .main--text {
+    background-color: var(--blue-500);
+    padding: 0.4rem 1rem;
+    border-radius: 0px 10px 10px 10px;
+    max-width: 200px;
+    font-size: 0.9rem;
+    white-space: pre-wrap;
+}
+
+.send--chat {
+    background-color: var(--gray-50);
+    padding: 0.5rem 0.5rem;
+    border-radius: 25px;
+}
+
+.chat--interface .el-textarea__inner {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.el-button--primary {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.el-button {
+    border: 1px solid var(--main-color);
+}
+
+.el-button:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--main-color);
+}
+
+.view--more_posts {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.view--more_posts button {
+    background-color: #d7d7d77b;
+    border: none;
+    border-radius: 25px;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #d7d7d77b;
+}
+
+.view--more {
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 0.85rem;
+}
+
+.logout--mask {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.logout--container {
+    background-color: #fff;
+    padding: 3rem;
+    /* border-radius: 10px; */
+    width: 25%;
+}
+
+.logout--container .logout {
+    background-color: var(--blue-200);
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.logout--container .cancel {
+    background-color: var(--gray-300);
+    padding: 0.4rem;
+    border-radius: 5px;
+    color: var(--blue-200);
+    border: none;
+    font-size: 0.9rem;
+}
+
+input:focus {
+    outline: none;
+}
